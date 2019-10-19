@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>studentForm</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+</head>
+<style type="text/css">
+    .form {
+        width: 800px;
+        height: auto;
+        text-align: center;
+        margin: 50px auto;
+        padding: 25px 20px;
+        background: #80e5ff;
+        box-shadow: 20px 20px 20px #b3f0ff;
+        border-radius: 5px;
+        color: #fff;
+    }
+    /* h2 {
+        margin-top: 0px;
+        margin-bottom: 15px;
+        padding-bottom: 5px;
+        border-radius: 10px;
+        border: 1px solid #25055f;
+    } */
+    
+    hr {
+        border: 1px solid darkcyan;
+        margin-bottom: 25px;
+        margin-right: 8%;
+        margin-left: 8%;
+    }
+    
+    img {
+        width: 200px;
+        height: 300px;
+    }
+    
+    body {
+        /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqWgpVbg5XuM-sbBIrOwTC8iGcvQBGGvYGSmUAki4TNhvS8XlO"); */
+         /*background-color: ;; */
+        text-align: center;
+
+    }
+</style>
+
+<body>
+    <br>
+    <h2 style="font-size:60px;">Student Enrollment</h2>
+    <hr>
+    <img src="https://image.flaticon.com/icons/svg/1177/1177577.svg">
+    <center>
+        <div class="form">
+            <fieldset>
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                    <input id="name" type="text" class="form-control" name="name" placeholder="Name" required>
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-list-alt"></i></span>
+                    <input id="class" type="text" class="form-control" name="subject" placeholder="Subject" required>
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon"><i  class="glyphicon glyphicon-education"></i></span>
+                    <input id="course" type="text" class="form-control" name="courseYr" placeholder="Course and Yr." required>
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                    <input id="email" type="Email" class="form-control" name="email" placeholder="Email" required>
+                </div>
+                <br>
+                <button id="submit" class="btn btn-info">Enroll</button>
+            </fieldset>
+        </div>
+    </center>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="sampleAjax.js"></script>
+
+</html>

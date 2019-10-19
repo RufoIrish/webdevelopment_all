@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+    <title>Grocery List</title>
+</head>
+<style>
+    body {
+        color: #000;
+        font-size: 20px;
+        line-height: 135%;
+        width: 100%;
+        word-break: break-word;
+        width: 80%;
+        margin-left: 10%;
+    }
+</style>
+
+<body>
+    <center>
+        <br><br>
+        <div style="display: none;height: auto;width : 500px;" id="showForm">
+            <input type="text" class="form-control" id="item" placeholder="Item"><br><br>
+            <input type="text" class="form-control" id="qty" placeholder="Quantity"><br><br>
+            <input type="text" class="form-control" id="priority" placeholder="Priority"><br><br>
+            <button id="addToList" class="btn btn-success">ADD TO LIST</button>
+        
+        </div>
+    </center>
+
+    <div class="container" style="display:inline;">
+        <div id="showTable">
+            <br><br>
+            <button id="addItem" class="btn btn-primary">ADD ITEM</button>
+            <br><br>
+            <table class="table ">
+                <thead class="thead" style="text-align: center">
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Priority</th>
+                </thead>
+                <tbody id="tbody">
+                    <tr>
+                        <td>
+
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="code.js"></script>
+</html>
